@@ -18,7 +18,7 @@ function display(input){
 
     }else{
         if (input=='back'){
-            output.innerText=current.substring(0,current.length-1)
+            outputs.innerText=current.substring(0,current.length-1)
             if (outputs.innerText==''){
                 outputs.innerText='0'
             }
