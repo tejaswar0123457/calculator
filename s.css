@@ -1,0 +1,42 @@
+*
+.flexing{
+    position: absolute;
+    left:20%;
+    top:20%;
+    background: white;
+    
+}
+.output{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+.row button{
+    width: 75px;
+    height: 75px;
+    background-color: chocolate;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+}
+.row button:hover{
+    background-color: chocolate;
+
+}
+.row button:active{
+    background-color: rgb(139, 155, 96);
+}
+#same{
+    width: 150px;
+}
